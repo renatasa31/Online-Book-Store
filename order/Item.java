@@ -17,4 +17,14 @@ public class Item
       this.price = price;
       this.qty = 1;
    }
+   
+   public String getIsbn()
+   {
+      return  isbn;
+   }
+
+   public String getTitle()
+   {
+      return  title;
+   }
 }
