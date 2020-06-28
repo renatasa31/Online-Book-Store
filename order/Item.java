@@ -8,5 +8,13 @@ public class Item
    private String isbn,title;
    private int price;
    private int qty;
-
+   
+   //Untuk Item
+   public Item(String isbn,String title, int price)
+   {
+      this.isbn = isbn;
+      this.title = title;
+      this.price = price;
+      this.qty = 1;
+   }
 }
