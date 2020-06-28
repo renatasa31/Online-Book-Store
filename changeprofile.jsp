@@ -24,45 +24,7 @@ body {font:10pt verdana}
 <form action="changeprofile.jsp" method="post">
 <h3>Personal Details </h3>
 <table>
-<tr>
-<td>
-Email Address
-<td>
-<input type=text name=email size=30 value=<%=user.getEmail()%>>
-</tr>
 
-<tr>
-<td>Mailing Address
-<td>
-<textarea name="address" rows=3 cols=30><%=user.getAddress()%></textarea>
-</td>
-</tr>
-
-<tr>
-<td>
-Phone Number
-<td>
-<input type=text  name=phone  size=30 value='<%=user.getPhone()%>'>
-</tr>
-</table>
-
-<h3>Password </h3>
-
-<table>
-<tr>
-<td>
-New Password
-<td>
-<input type=password name=pwd size=20>
-</tr>
-<tr>
-<td>
-Confirm Password
-<td>
-<input type=password name=pwd2 size=20>
-</tr>
-
-</table>
 
 <p>
 
